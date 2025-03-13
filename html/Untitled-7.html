@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="UTF-8"
+    <meta name="viewport" content="width-device-width">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+<head>
+<body>
+    <h1>Formulário de contato</h1>
+
+    <form action="/enviar" method="post"
+        <!-- campo de texto para o nome -->
+        <label for="nome"> nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <!-- campo de email -->
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- campo de senha -->
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required><br><br>
+
+        <!-- campo de mensagem -->
+        <label for="mensagem">Mensagem:</label>
+        <input type="mensagem" id="mensagem" rows="4" cols="56" required>
+
+</body>
