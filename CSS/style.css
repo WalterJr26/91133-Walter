@@ -1,0 +1,28 @@
+/* Seletores CSS  */
+
+h1{
+
+    /*Centralizar os elementos*/
+    text-align :center;
+    /*Cor do texto*/
+    color: rgba(199, 83, 83, 0.466);
+    /*Colocar em negrito*/
+    font-weight:bold;
+}
+
+
+table{
+/* largura da tabela  */
+    width: 100%;
+    /*colocar uma borda  */
+    border:1px solid;
+}
+
+td{
+    /*  */
+}
+
+thead{
+    background-color: rgb(121, 44, 21);
+}
+

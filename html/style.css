@@ -1,28 +1,28 @@
-/* Seletores CSS  */
-
-h1{
-
-    /*Centralizar os elementos*/
-    text-align :center;
-    /*Cor do texto*/
-    color: rgba(199, 83, 83, 0.466);
-    /*Colocar em negrito*/
-    font-weight:bold;
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+   
 }
 
+.conteiner{
 
-table{
-/* largura da tabela  */
-    width: 100%;
-    /*colocar uma borda  */
-    border:1px solid;
+    border:2px solid red;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    /*Alinhamento Horizontal*/
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 
-td{
-    /*  */
-}
+.item{
+    border:2px solid rgb(223, 236, 32);
+    width: 90px;
+    height: 90px;
+    background-color: rgb(23, 124, 45);   
 
-thead{
-    background-color: rgb(121, 44, 21);
 }
-

@@ -1,0 +1,34 @@
+
+label{
+    color: rgb(2,2,66);
+    font-weight: bold;
+
+}
+
+input{
+    width: 220px;
+    /*bordas arredondadas*/
+    border-radius: 4px;
+ 
+}
+
+textarea{
+    width: 220px;
+    border-radius: 4px;
+
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    color: rgb(2,2,66);
+
+}
+
+button:hover{
+    color: rgba(68, 224, 20, 0.822);
+    background-color: rgb(19,52,200);
+    font-weight: bold;
+
+
+}

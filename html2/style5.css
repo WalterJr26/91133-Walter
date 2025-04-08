@@ -1,0 +1,71 @@
+/* Resetando margens e preenchimento */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Navegação */
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0 1rem;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #000000;
+}
+
+/* Área principal */
+.main-content {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+.main-content .content {
+    flex: 1;
+    background-color: white;
+    padding: 2rem;
+    margin-right: 1rem;
+}
+
+.main-content .sidebar {
+    width: 300px;
+    background-color: #ffffff;
+    padding: 2rem;
+}
+
+/* Rodapé */
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
